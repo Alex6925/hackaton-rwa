@@ -1,0 +1,14 @@
+{
+  "name": "hackathon-rwa",
+  "private": true,
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "dev:server": "npm --workspace server run dev",
+    "dev:client": "npm --workspace client run dev",
+    "build": "npm -w client run build",
+    "lint": "echo \"(à configurer plus tard)\""
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
