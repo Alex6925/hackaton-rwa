@@ -1,0 +1,13 @@
+# node
+node_modules
+npm-debug.log*
+package-lock.json
+
+# env & build
+.env
+.env.*
+dist
+.vercel
+
+# macOS
+.DS_Store
